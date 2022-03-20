@@ -1,2 +1,3 @@
-# image-text-api
-Extract the text from the image.
+# *OCR image to text with Pytesseract*
+
+    
