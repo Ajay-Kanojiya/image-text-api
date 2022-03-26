@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aniso8601 = "==9.0.1"
+attrs = "==21.4.0"
+click = "==8.0.4"
+colorama = "==0.4.4"
+flask-restx = "==0.5.1"
+itsdangerous = "==2.1.1"
+jsonschema = "==4.4.0"
+pyparsing = "==3.0.7"
+pyrsistent = "==0.18.1"
+pytesseract = "==0.3.9"
+pytz = "==2022.1"
+six = "==1.16.0"
+Flask = "==2.0.3"
+Jinja2 = "==3.0.3"
+MarkupSafe = "==2.1.1"
+Pillow = "==9.0.1"
+Werkzeug = "==2.0.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
