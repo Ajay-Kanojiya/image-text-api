@@ -12,7 +12,7 @@ parser.add_argument("oem", type=int, help="OCR Engine modes", location='args', d
 ns = api.namespace("uploadImage", description="Image to text coversion")
 
 
-@ns.route("/")
+@ns.route("")
 @api.expect(upload_parser)
 class ImageToText(Resource):
     @api.doc(parser=parser)
